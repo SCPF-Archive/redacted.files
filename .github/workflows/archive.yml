@@ -23,8 +23,8 @@ jobs:
 
       - name: Archiver 9000
         run: |
-          git config --global user.name "SCPF-S19"
-          git config --global user.email "ph.server@pm.me"
+          git config --global user.name "SCPF-Archive"
+          git config --global user.email "noreply@github.com"
 
           sort -f -b -o readme.txt temp.txt
           rm -rf readme.txt
