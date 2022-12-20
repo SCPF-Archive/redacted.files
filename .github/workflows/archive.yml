@@ -12,6 +12,10 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@main
 
+      - name: Declare Variables
+        run: |
+          echo "MAIN_TITLE=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+
       - name: Archiver 9000
         run: |
           git config --global user.name "SCPF-S19"
@@ -27,6 +31,8 @@ jobs:
         uses: marvinpinto/action-automatic-releases@latest
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "${{ env.MAIN_TITLE }}"
+          automatic_release_tag: "${{ github.run_id }}"
           prerelease: false
           files: |
             *.git
