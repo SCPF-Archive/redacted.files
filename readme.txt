@@ -5,3 +5,10 @@ github.com/efoxbr/megacubo
 github.com/Pepijn98/Nekos
 github.com/EvilCult/iptv-m3u-player
 github.com/jerry08/AniStream
+github.com/revanced/revanced-cli
+github.com/revanced/revanced-patcher
+github.com/revanced/revanced-patches
+github.com/revanced/revanced-integrations
+github.com/revanced/revanced-manager
+github.com/revanced/revanced-website
+github.com/revanced/revanced-releases-api
