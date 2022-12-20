@@ -41,7 +41,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           title: "${{ env.MAIN_TITLE }}"
-          automatic_release_tag: "${{ github.run_id }}"
+          automatic_release_tag: "$${{ env.MAIN_TITLE }}"
           prerelease: false
           files: |
             *.git
