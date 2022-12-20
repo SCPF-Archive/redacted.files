@@ -45,6 +45,7 @@ jobs:
         if: inputs.SOLID-ARCHIVE-ALL
         run: |
           7z a -mx=9 -t7z redacted.files.7z *.git
+          rm -rf *.git
 
       - name: Upload Archives
         uses: marvinpinto/action-automatic-releases@latest
