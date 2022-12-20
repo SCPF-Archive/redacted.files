@@ -8,7 +8,7 @@ on:
       SOLID-ARCHIVE-ALL:
         description: "Solid Archive All"
         type: boolean
-        default: false
+        default: true
 
 jobs:
   archive:
@@ -26,7 +26,7 @@ jobs:
           git config --global user.name "SCPF-Archive"
           git config --global user.email "noreply@github.com"
 
-          sort -f -b readme.txt -o temp.txt
+          sort -f -b -u readme.txt -o temp.txt
           rm -rf readme.txt
           mv -v temp.txt readme.txt
 
