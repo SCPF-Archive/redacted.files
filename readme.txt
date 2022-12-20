@@ -32,3 +32,4 @@ github.com/x0uid/SpotifyAdBlock
 github.com/Xeroday/Spotify-Ad-Blocker
 github.com/xManager-v2/xManager-Spotify
 github.com/yt-dlp/yt-dlp
+github.com/KRTirtho/spotube
