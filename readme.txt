@@ -7,11 +7,10 @@ github.com/FreeTubeApp/FreeTube
 github.com/jerry08/AniStream
 github.com/jwallet/spy-spotify
 github.com/KRTirtho/spotube
-github.com/KRTirtho/spotube
 github.com/libre-tube/LibreTube
 github.com/Pepijn98/Nekos
-github.com/recloudstream/cloudstream.git
-github.com/recloudstream/cs-repos.git
+github.com/recloudstream/cloudstream
+github.com/recloudstream/cs-repos
 github.com/revanced/revanced-cli
 github.com/revanced/revanced-integrations
 github.com/revanced/revanced-manager
