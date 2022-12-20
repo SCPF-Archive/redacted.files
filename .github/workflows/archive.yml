@@ -4,6 +4,11 @@ on:
     - cron:  "* 23 * * *"
 
   workflow_dispatch:
+    inputs:
+      SOLID-ARCHIVE-ALL:
+        description: "Solid Archive All"
+        type: boolean
+        default: false
 
 jobs:
   archive:
@@ -36,6 +41,11 @@ jobs:
         run: |
           ls
 
+      - name: Create Solid Archive
+        if: inputs.SOLID-ARCHIVE-ALL
+        run: |
+          7z a -mx=9 -t7z redacted.files.7z *.git
+
       - name: Upload Archives
         uses: marvinpinto/action-automatic-releases@latest
         with:
@@ -44,7 +54,7 @@ jobs:
           automatic_release_tag: "$${{ env.MAIN_TITLE }}"
           prerelease: false
           files: |
-            *.git
+            *
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
