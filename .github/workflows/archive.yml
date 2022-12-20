@@ -14,10 +14,11 @@ jobs:
 
       - name: Sync Repository
         run: |
+          RANDOM=$$
           git config --global user.name "SCPF-S19"
           git config --global user.email "ph.server@pm.me"
           wget --progress=bar:force -i readme.txt
-          ls
+          rm -rf readme.txt
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
