@@ -34,7 +34,7 @@ jobs:
           cat readme.txt
 
           mkdir $RANDOM
-          git add .
+          git add --ignore-errors .
           git commit -am "Update"
           git push --force
 
