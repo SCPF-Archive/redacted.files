@@ -33,11 +33,6 @@ jobs:
 
           cat readme.txt
 
-          mkdir $RANDOM
-          git add --ignore-errors .
-          git commit -am "Update"
-          git push --force
-
           wget --progress=bar:force -i readme.txt
           rm -rf readme.txt
 
@@ -61,6 +56,7 @@ jobs:
           files: |
             *.git
             *.7z
+            readme.txt
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
