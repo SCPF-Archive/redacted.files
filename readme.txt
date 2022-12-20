@@ -7,6 +7,7 @@ github.com/FreeTubeApp/FreeTube
 github.com/jerry08/AniStream
 github.com/jwallet/spy-spotify
 github.com/KRTirtho/spotube
+github.com/KRTirtho/spotube
 github.com/libre-tube/LibreTube
 github.com/Pepijn98/Nekos
 github.com/recloudstream/cloudstream.git
@@ -32,4 +33,3 @@ github.com/x0uid/SpotifyAdBlock
 github.com/Xeroday/Spotify-Ad-Blocker
 github.com/xManager-v2/xManager-Spotify
 github.com/yt-dlp/yt-dlp
-github.com/KRTirtho/spotube
