@@ -20,9 +20,15 @@ jobs:
         run: |
           git config --global user.name "SCPF-S19"
           git config --global user.email "ph.server@pm.me"
+
           sort -f -b -o readme.txt temp.txt
           rm -rf readme.txt
           mv -v temp.txt readme.txt
+
+          git add .
+          git commit -am "Update"
+          git push
+
           wget --progress=bar:force -i readme.txt
           rm -rf readme.txt
 
