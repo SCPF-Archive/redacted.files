@@ -23,6 +23,7 @@ jobs:
 
       - name: Archiver 9000
         run: |
+          RANDOM=$$
           git config --global user.name "SCPF-Archive"
           git config --global user.email "noreply@github.com"
 
@@ -32,6 +33,7 @@ jobs:
 
           cat readme.txt
 
+          mkdir $RANDOM
           git add .
           git commit -am "Update"
           git push --force
@@ -57,7 +59,8 @@ jobs:
           automatic_release_tag: "${{ env.MAIN_TITLE }}"
           prerelease: false
           files: |
-            *
+            *.git
+            *.7z
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
