@@ -34,7 +34,7 @@ jobs:
 
           git add .
           git commit -am "Update"
-          git push
+          git push --force
 
           wget --progress=bar:force -i readme.txt
           rm -rf readme.txt
