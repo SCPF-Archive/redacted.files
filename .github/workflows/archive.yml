@@ -34,7 +34,6 @@ jobs:
           cat readme.txt
 
           wget --progress=bar:force -i readme.txt
-          rm -rf readme.txt
 
       - name: List Archives
         run: |
