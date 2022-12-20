@@ -27,6 +27,7 @@ jobs:
           git config --global user.email "noreply@github.com"
 
           sort -f -b -o readme.txt
+          cat readme.txt
 
           git add .
           git commit -am "Update"
