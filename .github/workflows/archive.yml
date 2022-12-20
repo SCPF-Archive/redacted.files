@@ -19,9 +19,15 @@ jobs:
           wget --progress=bar:force -i readme.txt
           rm -rf readme.txt
 
+      - name: List Archives
+        run: |
+          ls
+
       - name: Upload Archives
-        uses: softprops/action-gh-release@master
+        uses: marvinpinto/action-automatic-releases@latest
         with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
           files: |
             *.git
 
