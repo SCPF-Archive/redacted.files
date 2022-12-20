@@ -1,0 +1,28 @@
+name: Sync Fork
+on:
+  schedule:
+    - cron:  "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  Start:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@main
+
+      - name: Sync Repository
+        run: |
+          git config --global user.name "SCPF-S19"
+          git config --global user.email "ph.server@pm.me"
+          wget --progress=bar:force -i readme.txt
+          ls
+
+      - name: Delete Workflow Runs
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 0
