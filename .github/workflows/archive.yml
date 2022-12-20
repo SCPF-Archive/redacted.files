@@ -26,9 +26,7 @@ jobs:
           git config --global user.name "SCPF-Archive"
           git config --global user.email "noreply@github.com"
 
-          sort -f -b -o readme.txt temp.txt
-          rm -rf readme.txt
-          mv -v temp.txt readme.txt
+          sort -f -b -o readme.txt
 
           git add .
           git commit -am "Update"
