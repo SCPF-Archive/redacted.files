@@ -1,4 +1,3 @@
-
 github.com/ajayyy/SponsorBlock
 github.com/artyshko/smd
 github.com/cuynu/ytvanced
@@ -23,6 +22,8 @@ github.com/SagerNet/SagerNet
 github.com/Shabinder/SpotiFlyer
 github.com/SimonBrazell/privacy-redirect
 github.com/SkyTubeTeam/SkyTube
+github.com/spotDL/spotify-downloader
+github.com/SpotX-CLI/SpotX-Win
 github.com/TeamPiped/Piped
 github.com/th-ch/youtube-music
 github.com/vfsfitvnm/ViMusic
