@@ -12,3 +12,16 @@ github.com/revanced/revanced-integrations
 github.com/revanced/revanced-manager
 github.com/revanced/revanced-website
 github.com/revanced/revanced-releases-api
+github.com/yt-dlp/yt-dlp
+github.com/Shabinder/SpotiFlyer
+github.com/FreeTubeApp/FreeTube
+github.com/ajayyy/SponsorBlock
+github.com/libre-tube/LibreTube
+github.com/TeamPiped/Piped
+github.com/th-ch/youtube-music
+github.com/vfsfitvnm/ViMusic
+github.com/KRTirtho/spotube
+github.com/SkyTubeTeam/SkyTube
+github.com/SimonBrazell/privacy-redirect
+github.com/cuynu/ytvanced
+github.com/VueTubeApp/VueTube
