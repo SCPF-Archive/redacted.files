@@ -12,13 +12,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@main
 
-      - name: Sync Repository
+      - name: Archiver 9000
         run: |
-          RANDOM=$$
           git config --global user.name "SCPF-S19"
           git config --global user.email "ph.server@pm.me"
           wget --progress=bar:force -i readme.txt
           rm -rf readme.txt
+
+      - name: Upload Archives
+        uses: softprops/action-gh-release@master
+        with:
+          files: |
+            *.git
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
