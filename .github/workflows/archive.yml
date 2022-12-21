@@ -31,7 +31,6 @@ jobs:
           mv -v temp.txt readme.txt
           rm -rf *.bin
           touch $RANDOM.bin
-          rm -rf *
           git add .
           git commit -am "Update Repo"
           git push
