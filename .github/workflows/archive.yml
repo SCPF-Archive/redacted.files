@@ -1,7 +1,7 @@
 name: Archiver 9000
 on:
   schedule:
-    - cron:  "* 23 * * *"
+    - cron:  "* 12,23 * * *"
 
   workflow_dispatch:
     inputs:
