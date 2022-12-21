@@ -56,7 +56,6 @@ jobs:
           files: |
             *.git
             *.7z
-            readme.txt
 
       - name: Delete Workflow Runs
         uses: Mattraks/delete-workflow-runs@main
