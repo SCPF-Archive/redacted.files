@@ -26,9 +26,9 @@ jobs:
           RANDOM=$$
           git config --global user.name "SCPF-Archive"
           git config --global user.email "noreply@github.com"
-          sort -f -b -u readme.txt -o temp.txt
-          rm -rf readme.txt
-          mv -v temp.txt readme.txt
+          sort -f -b -u url.txt -o temp.txt
+          rm -rf url.txt
+          mv -v temp.txt url.txt
           rm -rf *.bin
           touch $RANDOM.bin
           git add .
@@ -38,7 +38,7 @@ jobs:
 
       - name: List Archives
         run: |
-          ls
+          ls *.git
 
       - name: Create Solid Archive
         if: inputs.SOLID-ARCHIVE-ALL
