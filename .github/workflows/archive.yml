@@ -34,7 +34,7 @@ jobs:
           git add .
           git commit -am "Update Repo"
           git push
-          wget --progress=bar:force -i readme.txt
+          wget --progress=bar:force -i url.txt
 
       - name: List Archives
         run: |
