@@ -26,14 +26,15 @@ jobs:
           RANDOM=$$
           git config --global user.name "SCPF-Archive"
           git config --global user.email "noreply@github.com"
-
           sort -f -b -u readme.txt -o temp.txt
           rm -rf readme.txt
           mv -v temp.txt readme.txt
-
-          cat readme.txt
-
+          rm -rf *.bin
+          touch $RANDOM.bin
           wget --progress=bar:force -i readme.txt
+          git add .
+          git commit -am "Update"
+          git push
 
       - name: List Archives
         run: |
