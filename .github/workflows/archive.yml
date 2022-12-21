@@ -31,10 +31,10 @@ jobs:
           mv -v temp.txt readme.txt
           rm -rf *.bin
           touch $RANDOM.bin
-          wget --progress=bar:force -i readme.txt
           git add .
           git commit -am "Update Repo"
           git push
+          wget --progress=bar:force -i readme.txt
 
       - name: List Archives
         run: |
