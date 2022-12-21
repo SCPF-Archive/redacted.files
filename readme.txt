@@ -4,6 +4,7 @@ github.com/cuynu/ytvanced
 github.com/efoxbr/megacubo
 github.com/EvilCult/iptv-m3u-player
 github.com/FreeTubeApp/FreeTube
+github.com/inotia00/VancedMicroG
 github.com/jerry08/AniStream
 github.com/jwallet/spy-spotify
 github.com/KRTirtho/spotube
@@ -32,4 +33,3 @@ github.com/x0uid/SpotifyAdBlock
 github.com/Xeroday/Spotify-Ad-Blocker
 github.com/xManager-v2/xManager-Spotify
 github.com/yt-dlp/yt-dlp
-github.com/inotia00/VancedMicroG
