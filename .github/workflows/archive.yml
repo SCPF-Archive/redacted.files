@@ -33,7 +33,7 @@ jobs:
           touch $RANDOM.bin
           wget --progress=bar:force -i readme.txt
           git add .
-          git commit -am "Update"
+          git commit -am "Update Repo"
           git push
 
       - name: List Archives
