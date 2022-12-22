@@ -4,11 +4,6 @@ on:
     - cron:  "* 12,23 * * *"
 
   workflow_dispatch:
-    inputs:
-      SOLID-ARCHIVE-ALL:
-        description: "Solid Archive All"
-        type: boolean
-        default: true
 
 jobs:
   archive:
@@ -41,7 +36,6 @@ jobs:
           ls *.git
 
       - name: Create Solid Archive
-        if: inputs.SOLID-ARCHIVE-ALL
         run: |
           7z a -mx=9 -t7z redacted.files.7z *.git
           rm -rf *.git
