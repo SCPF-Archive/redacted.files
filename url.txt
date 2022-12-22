@@ -13,6 +13,7 @@ github.com/EvilCult/iptv-m3u-player.git
 github.com/FreeTubeApp/FreeTube.git
 github.com/inotia00/VancedMicroG.git
 github.com/jakepurple13/OtakuWorld.git
+github.com/jerry08/AnimeDl.git
 github.com/jerry08/AniStream.git
 github.com/jwallet/spy-spotify.git
 github.com/KotatsuApp/kotatsu-parsers.git
@@ -53,4 +54,3 @@ github.com/x0uid/SpotifyAdBlock.git
 github.com/Xeroday/Spotify-Ad-Blocker.git
 github.com/xManager-v2/xManager-Spotify.git
 github.com/yt-dlp/yt-dlp.git
-github.com/jerry08/AnimeDl.git
