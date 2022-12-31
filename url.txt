@@ -34,6 +34,7 @@ github.com/revanced/revanced-releases-api.git
 github.com/revanced/revanced-website.git
 github.com/SagerNet/SagerNet.git
 github.com/saikou-app/saikou.git
+github.com/SCPF-Archive/repo.1.git
 github.com/Shabinder/SpotiFlyer.git
 github.com/SimonBrazell/privacy-redirect.git
 github.com/SkyTubeTeam/SkyTube.git
@@ -54,4 +55,3 @@ github.com/x0uid/SpotifyAdBlock.git
 github.com/Xeroday/Spotify-Ad-Blocker.git
 github.com/xManager-v2/xManager-Spotify.git
 github.com/yt-dlp/yt-dlp.git
-github.com/SCPF-Archive/repo.1.git
