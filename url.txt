@@ -1,5 +1,6 @@
 github.com/aidanjuma/tengoku-mobile.git
 github.com/ajayyy/SponsorBlock.git
+github.com/AllanWang/Frost-for-Facebook.git
 github.com/AniTrend/anitrend-v2.git
 github.com/artyshko/smd.git
 github.com/CarlosEsco/Neko.git
@@ -55,4 +56,3 @@ github.com/x0uid/SpotifyAdBlock.git
 github.com/Xeroday/Spotify-Ad-Blocker.git
 github.com/xManager-v2/xManager-Spotify.git
 github.com/yt-dlp/yt-dlp.git
-github.com/AllanWang/Frost-for-Facebook.git
